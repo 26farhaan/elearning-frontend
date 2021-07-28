@@ -116,6 +116,7 @@ export default function TemporaryDrawer(props) {
                     <Drawer anchor={'left'} open={state['left']} onClose={toggleDrawer('left', false)}>
                         {list('left')}
                     </Drawer>
+                    test
                     </React.Fragment>
                 </div>
                 <div className="body-wrapper">
